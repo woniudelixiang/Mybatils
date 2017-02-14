@@ -1,0 +1,5 @@
+service\AscUserInfoServiceImpl.class
+service\AscUserInfoServiceI.class
+dao\AscUserInfoMapper.class
+controller\AscUserInfoController.class
+model\AscUserInfo.class

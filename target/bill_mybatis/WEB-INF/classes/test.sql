@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS `AscUserInfo`;
+CREATE TABLE `AscUserInfo` (
+  `ID` varchar(30) NOT NULL COMMENT '主键',
+  `USER_NAME` varchar(30) DEFAULT NULL COMMENT '用户名称', 
+  `PASSWORD` varchar(30) DEFAULT NULL COMMENT '密码', 
+  `USER_TYPE` int(11) DEFAULT 1 COMMENT '用户类型', 
+   PRIMARY KEY (`ID`)
+);
